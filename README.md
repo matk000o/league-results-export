@@ -1,6 +1,6 @@
-# Results Creator
+# League Results Export
 
-This Python script compiles orienteering race results from IOF XML V3 files and generates a unified league-style summary table in CSV format.
+This Python script compiles orienteering race results from **IOF XML V3** files and generates a unified league-style summary table in CSV format.
 
 
 ## Dependencies
@@ -17,7 +17,7 @@ pip install pandas
 ```bash
 python ./results_creator.py
 ```
-4. Open StredoLigaResults.csv in Excel or similar spreadsheet software
+4. Open the final csv file in Excel or similar spreadsheet software
 
 ## TODOs
 - check if the file uses correct format
