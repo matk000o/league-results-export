@@ -1,16 +1,23 @@
 # Results Creator
 
-Simple python script that reads the competition result data from multiple files in the IOF XML V3 version, then compiles the data into one csv file divided into separate tables for each category, showing the overall position of competitors in the league.
+This Python script compiles orienteering race results from IOF XML V3 files and generates a unified league-style summary table in CSV format.
+
 
 ## Dependencies
 - [pandas](https://github.com/pandas-dev/pandas)
 
 ## Set up
 
-1. move all the **IOF XML V3** files you want to analyze into the ./result_files directory
-2. install necessary modules (ideally in virtual environment)
-3. run the script in the root directory (```python ./results_creator.py```)
-4. output csv file should be located in the root dir
+1. place the **IOF XML V3** files you want to analyze into the ./result_files directory
+2. install requirements (ideally in virtual environment)
+```bash
+pip install pandas
+```
+3. run the script in the root directory
+```bash
+python ./results_creator.py
+```
+4. Open StredoLigaResults.csv in Excel or similar spreadsheet software
 
 ## TODOs
 - check if the file uses correct format
