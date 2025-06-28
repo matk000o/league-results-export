@@ -15,7 +15,7 @@ pip install pandas
 ```
 3. run the script in the root directory
 ```bash
-python ./results_creator.py
+python ./league_results_export.py
 ```
 4. Open the final csv file in Excel or similar spreadsheet software
 
